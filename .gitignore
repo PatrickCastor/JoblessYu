@@ -1,0 +1,11 @@
+# Secrets
+.env
+*.env
+
+# Virtual environments
+**/.venv/
+**/venv/
+
+# Cache
+__pycache__/
+*.pyc
