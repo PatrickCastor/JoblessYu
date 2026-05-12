@@ -1,5 +1,50 @@
 [
     {
+        "id":"in-2293f5ec2608f003",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=2293f5ec2608f003",
+        "title":"Steward",
+        "company":"Marriott International",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-3e6517e939d0b5c5",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=3e6517e939d0b5c5",
+        "title":"Field Project Associate",
+        "company":"International Union for Conservation of Nature",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":null
+    },
+    {
+        "id":"in-910fb392479b5652",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=910fb392479b5652",
+        "title":"Senior Cloud Engineer (Japanese speaking)",
+        "company":"NTT Global Data Centers Americas, Inc.",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-c5c8d779a73a095f",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=c5c8d779a73a095f",
+        "title":"Field Service Engineer - Diagnostics Imaging",
+        "company":"GE HealthCare",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":null
+    },
+    {
+        "id":"in-38cd3d00fef16dc8",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=38cd3d00fef16dc8",
+        "title":"Senior Cloud Engineer (Japanese speaking)",
+        "company":"NTT DATA",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":"fulltime"
+    },
+    {
         "id":"in-d6b1eebe93e5e729",
         "site":"indeed",
         "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=d6b1eebe93e5e729",
@@ -126,51 +171,6 @@
         "job_type":"fulltime"
     },
     {
-        "id":"in-daee59fdd2ed9b37",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=daee59fdd2ed9b37",
-        "title":"Production Manager",
-        "company":"Coherent Corp.",
-        "location":"39, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-8c0ab1bccb3e6991",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=8c0ab1bccb3e6991",
-        "title":"[Internship] Financial Controlling Intern",
-        "company":"Bosch",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"internship"
-    },
-    {
-        "id":"in-0b8717369ff7e3ad",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=0b8717369ff7e3ad",
-        "title":"Senior Software Engineer, Core Experiences - Da Nang, Vietnam",
-        "company":"Speechify",
-        "location":"Ðà Nẵng, DN, VN",
-        "job_type":null
-    },
-    {
-        "id":"in-54a4c1f4f25cb672",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=54a4c1f4f25cb672",
-        "title":"Pre-sales Network Engineer (ENT)",
-        "company":"SvTech",
-        "location":"Hà Nội, HN, VN",
-        "job_type":null
-    },
-    {
-        "id":"in-dcccba6930638cfc",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=dcccba6930638cfc",
-        "title":"[HCM] QA Engineer (Automation\/Manual)",
-        "company":"4PS",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
         "id":"in-9c9a9743fe057347",
         "site":"indeed",
         "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=9c9a9743fe057347",
@@ -270,6 +270,15 @@
         "job_type":null
     },
     {
+        "id":"li-4411430440",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4411430440",
+        "title":"IT Systems Engineer",
+        "company":"Hallmark Cards Asia",
+        "location":"Ho Chi Minh City, Vietnam",
+        "job_type":null
+    },
+    {
         "id":"li-4379188416",
         "site":"linkedin",
         "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4379188416",
@@ -306,15 +315,6 @@
         "job_type":null
     },
     {
-        "id":"li-4400731171",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4400731171",
-        "title":"Associate Support Analyst",
-        "company":"Confluence",
-        "location":"Ho Chi Minh City, Ho Chi Minh City, Vietnam",
-        "job_type":null
-    },
-    {
         "id":"li-4412923582",
         "site":"linkedin",
         "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4412923582",
@@ -324,21 +324,21 @@
         "job_type":null
     },
     {
-        "id":"li-4410129847",
+        "id":"li-4413420977",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4410129847",
-        "title":"IT Support Engineer",
-        "company":"GJR Technologies",
-        "location":"Ho Chi Minh City, Vietnam",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413420977",
+        "title":"[HN] IT SUPPORT (OFFICE 365)",
+        "company":"CMC Technology & Solution (CMC TS)",
+        "location":"Quận Cầu Giấy, Hanoi, Vietnam",
         "job_type":null
     },
     {
-        "id":"li-4413521094",
+        "id":"li-4413559892",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413521094",
-        "title":"Information Technology Support Engineer",
-        "company":"BE GROUP",
-        "location":"District 1, Ho Chi Minh City, Vietnam",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413559892",
+        "title":"IT Support - HCM",
+        "company":"AstraZeneca",
+        "location":"Ho Chi Minh City, Ho Chi Minh City, Vietnam",
         "job_type":null
     },
     {
