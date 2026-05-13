@@ -21,7 +21,7 @@ func main() {
 	}
 
 	// Use your reset token here once you have it!
-	token := "Bot MTUwMzYxOTU5NDAyNjM1MjY5MA.GZLx3M.__JFfghZUWTLKIFVqv4ObsGqayW232SmAzQR28"
+	token := "Bot " + os.Getenv("DISCORD_BOT_TOKEN")
 	dbURL := os.Getenv("DATABASE_URL")
 
 	disbot, err := discordgo.New(token)
@@ -50,8 +50,8 @@ func main() {
 			}
 			defer conn.Close(ctx)
 
-			// Query the latest 3 jobs scraped by JobSpy
-			rows, _ := conn.Query(ctx, "SELECT title, company, location, job_url FROM jobs ORDER BY fetched_at DESC LIMIT 3")
+			// Query the latest 10 jobs scraped by JobSpy
+			rows, _ := conn.Query(ctx, "SELECT title, company, location, job_url FROM jobs ORDER BY fetched_at DESC LIMIT 10")
 
 			for rows.Next() {
 				var title, company, loc, url string
@@ -66,7 +66,7 @@ func main() {
 			}
 		}
 	})
-
+	//Permission set:
 	disbot.Identify.Intents = discordgo.IntentsGuilds | discordgo.IntentsGuildMessages | discordgo.IntentsDirectMessages
 
 	err = disbot.Open()

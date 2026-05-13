@@ -1,5 +1,5 @@
 # JoblessYu
-Discordgo - Job announcer bot. WIP
+Discordgo - Job Announcer Bot
 
 ## Get Started with Neon
 
@@ -9,9 +9,6 @@ This repo can now save scraped jobs to Neon using `DATABASE_URL`.
 
 Your local `.env` is already gitignored. Add:
 
-```env
-DATABASE_URL=postgresql://<user>:<password>@<host>/<database>?sslmode=require
-```
 
 ### 2) Install Python dependencies
 

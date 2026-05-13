@@ -1,183 +1,201 @@
 [
     {
-        "id":"in-2293f5ec2608f003",
+        "id":"in-17b779e24745f1a6",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=2293f5ec2608f003",
-        "title":"Steward",
-        "company":"Marriott International",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=17b779e24745f1a6",
+        "title":"Research Assistant (3 months & Third-Party Contract)",
+        "company":"RMIT University",
+        "location":"Hà Nội, HN, VN",
+        "job_type":"parttime"
     },
     {
-        "id":"in-3e6517e939d0b5c5",
+        "id":"in-708bdbb9af6061c5",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=3e6517e939d0b5c5",
-        "title":"Field Project Associate",
-        "company":"International Union for Conservation of Nature",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":null
-    },
-    {
-        "id":"in-910fb392479b5652",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=910fb392479b5652",
-        "title":"Senior Cloud Engineer (Japanese speaking)",
-        "company":"NTT Global Data Centers Americas, Inc.",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-c5c8d779a73a095f",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=c5c8d779a73a095f",
-        "title":"Field Service Engineer - Diagnostics Imaging",
-        "company":"GE HealthCare",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=708bdbb9af6061c5",
+        "title":"Senior Account Executive",
+        "company":"Aon",
         "location":"Thành phố Hồ Chí Minh, SG, VN",
         "job_type":null
     },
     {
-        "id":"in-38cd3d00fef16dc8",
+        "id":"in-d0c9fe6287a81681",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=38cd3d00fef16dc8",
-        "title":"Senior Cloud Engineer (Japanese speaking)",
-        "company":"NTT DATA",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=d0c9fe6287a81681",
+        "title":"Dinner With The Founder – EP4 In Canada: A Journey Of Returning And Giving Back",
+        "company":"Dan On Foods",
+        "location":"SG, VN",
+        "job_type":null
     },
     {
-        "id":"in-d6b1eebe93e5e729",
+        "id":"in-f0546b3ea3135142",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=d6b1eebe93e5e729",
-        "title":"Partner Account Manager",
-        "company":"Philips",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-dad565deb59a5018",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=dad565deb59a5018",
-        "title":"Senior IT System Administrator (MS 365 \/ Azure \/ Cloud)",
-        "company":"Novumstate GmbH",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=f0546b3ea3135142",
+        "title":"Agentic Coding Specialist",
+        "company":"Scandinavian Software Park",
         "location":"Hà Nội, HN, VN",
         "job_type":null
     },
     {
-        "id":"in-67d5e3aa61d789e1",
+        "id":"in-2e1bafcad4a9b19d",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=67d5e3aa61d789e1",
-        "title":"Senior Automation Test Engineer (Playwright, Java, AI)",
-        "company":"Hansen Technologies",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=2e1bafcad4a9b19d",
+        "title":"DevOps Lead\/ Manager (Strong AWS)",
+        "company":"CODE88 COMPANY LIMITED",
         "location":"Thành phố Hồ Chí Minh, SG, VN",
         "job_type":null
     },
     {
-        "id":"in-54eb8b2a061d1b48",
+        "id":"in-682dd959c1b7495b",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=54eb8b2a061d1b48",
-        "title":"Operation Engineer (Devops, Linux, AWS)",
-        "company":"INCEPTIONLABS",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":null
-    },
-    {
-        "id":"in-3b9737ff14900951",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=3b9737ff14900951",
-        "title":"PMO Manager \/ Project Management Office Manager",
-        "company":"Mynavi TechTus Vietnam",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=682dd959c1b7495b",
+        "title":"Human Resources and Administration",
+        "company":"CO-WELL",
         "location":"Ðà Nẵng, DN, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-734db19515d63cc5",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=734db19515d63cc5",
+        "title":"Senior Cargo Account Executive- Hanoi, Vietnam",
+        "company":"Qatar Airways",
+        "location":"Hà Nội, HN, VN",
         "job_type":null
     },
     {
-        "id":"in-8dce38162a893841",
+        "id":"in-b93c34cca13df0cb",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=8dce38162a893841",
-        "title":"Senior Software Development Manager",
-        "company":"HSC",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=b93c34cca13df0cb",
+        "title":"BRSE with Japanese Language Skills - Việc làm mới",
+        "company":"Việc Ơi Japan Client",
+        "location":"Hà Nội, HN, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-ebbe22fbe7acce5f",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=ebbe22fbe7acce5f",
+        "title":"Blockchain Specialist Team Expansion – 5 Openings - Việc làm HOT",
+        "company":"Việc Ơi Japan Client",
+        "location":"Hà Nội, HN, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-be1b11b23a63d1d4",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=be1b11b23a63d1d4",
+        "title":"GOLANG DEVELOPER (MID-LEVEL) - 3500USD SALARY - Việc làm mới",
+        "company":"Việc Ơi Japan Client",
+        "location":"Hà Nội, HN, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-3aa2ee1bc18e9f72",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=3aa2ee1bc18e9f72",
+        "title":"Channel Sales Rep II",
+        "company":"Honeywell",
         "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-febbefb45b302fbd",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=febbefb45b302fbd",
+        "title":"Senior Expert, Distribution Support (50000148)",
+        "company":"Techcombank",
+        "location":"Hà Nội, HN, VN",
         "job_type":null
     },
     {
-        "id":"in-4e4bacf1d4c68ec1",
+        "id":"in-614adb463c1d2fa5",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=4e4bacf1d4c68ec1",
-        "title":"Technology Consultant - Việc làm mới",
-        "company":"Việc Ơi Japan Client",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=614adb463c1d2fa5",
+        "title":"GUCCI - Client Advisor",
+        "company":"Gucci",
+        "location":"Hà Nội, HN, VN",
+        "job_type":null
+    },
+    {
+        "id":"in-463b66d7970023ea",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=463b66d7970023ea",
+        "title":"Civil Engineer",
+        "company":"POSCO YAMATO VINA STEEL JSC",
         "location":"Thành phố Hồ Chí Minh, SG, VN",
         "job_type":"fulltime"
     },
     {
-        "id":"in-ce0fd3df9033b259",
+        "id":"in-6acf294980a8d32c",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=ce0fd3df9033b259",
-        "title":"Product Regulatory Compliance Engineer - Việc làm mới",
-        "company":"Nét Việt",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-b8afd73ffb20ec0d",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=b8afd73ffb20ec0d",
-        "title":"Professional in Business Analytics - Việc làm gần đây",
-        "company":"Việc Ơi Japan Client",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=6acf294980a8d32c",
+        "title":"Executive Accountant",
+        "company":null,
         "location":"Hà Nội, HN, VN",
         "job_type":"fulltime"
     },
     {
-        "id":"in-3365bc45d2441356",
+        "id":"in-ab5c13b88ddaf456",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=3365bc45d2441356",
-        "title":"Information Technology Communicator - Việc làm gần đây",
-        "company":"Việc Ơi Japan Client",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-73cb2b629da99cef",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=73cb2b629da99cef",
-        "title":"Specialist, Agency Risk and Control",
-        "company":"Manulife",
-        "location":"Thành phố Hồ Chí Minh, SG, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-b1a041d7163e5e2c",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=b1a041d7163e5e2c",
-        "title":"[HN\/HCM] Chăm Sóc Khách Hàng Ca Đêm - Onsite - Lương Cứng 15-17 Triệu\/Tháng (Không Yêu Cầu Kinh Nghiệm)",
-        "company":"Công Ty TNHH Các Giải Pháp Softel",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=ab5c13b88ddaf456",
+        "title":"Hà Nội - Kỹ Sư Kiến Trúc Hệ Thống - System Architecture",
+        "company":"CÔNG TY TNHH DỊCH VỤ RENRUI VIỆT NAM",
         "location":"Hà Nội, HN, VN",
         "job_type":"fulltime"
     },
     {
-        "id":"in-1b050f2aa9dfe7e2",
+        "id":"in-1aadcfc5b1c49812",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=1b050f2aa9dfe7e2",
-        "title":"[HN\/HCM] Chăm Sóc Khách Hàng Ca Đêm - Onsite - Lương Cứng 15-17 Triệu\/Tháng (Không Yêu Cầu Kinh Nghiệm) làm việc tại Hồ Chí Minh",
-        "company":"Công Ty TNHH Các Giải Pháp Softel",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=1aadcfc5b1c49812",
+        "title":"Nhân Viên IT (IT Helpdesk, IT Support, IT Onsite)",
+        "company":"Công Ty TNHH Thực Phẩm Tân Việt Nhật",
         "location":"Thành phố Hồ Chí Minh, SG, VN",
         "job_type":"fulltime"
     },
     {
-        "id":"in-fb100fbf11f3071b",
+        "id":"in-b469add522320528",
         "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=fb100fbf11f3071b",
-        "title":"ERP Sales Manager",
-        "company":"Technosoft Automotive Solutions Corporation",
-        "location":"Hà Nội, HN, VN",
-        "job_type":"fulltime"
-    },
-    {
-        "id":"in-9c9a9743fe057347",
-        "site":"indeed",
-        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=9c9a9743fe057347",
-        "title":"Process Engineer",
-        "company":"Air Liquide",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=b469add522320528",
+        "title":"Regulatory Affairs Manager",
+        "company":"Novartis",
         "location":"VN",
         "job_type":"fulltime"
+    },
+    {
+        "id":"in-f86288d73d6a2964",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=f86288d73d6a2964",
+        "title":"Marketing Executive (Entertainment\/F & B\/Retail)",
+        "company":"Công Ty TNHH RH1 VN",
+        "location":"Thành phố Hồ Chí Minh, SG, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"in-d0d049515e867c79",
+        "site":"indeed",
+        "job_url":"https:\/\/vn.indeed.com\/viewjob?jk=d0d049515e867c79",
+        "title":"Brand Lead - Vietnam Market",
+        "company":"Công ty TNHH Petour Việt Nam",
+        "location":"Hà Nội, HN, VN",
+        "job_type":"fulltime"
+    },
+    {
+        "id":"li-4413542365",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413542365",
+        "title":"Support Engineer Level 1",
+        "company":"NAKIVO",
+        "location":"Ho Chi Minh City, Vietnam",
+        "job_type":null
+    },
+    {
+        "id":"li-4412923582",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4412923582",
+        "title":"Junior IT Helpdesk Technician",
+        "company":"FireGroup Technology",
+        "location":"Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+        "job_type":null
     },
     {
         "id":"li-4412747554",
@@ -198,15 +216,6 @@
         "job_type":null
     },
     {
-        "id":"li-4412671454",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4412671454",
-        "title":"Founder's Technical Assistant – Remote",
-        "company":"Colacy",
-        "location":"",
-        "job_type":null
-    },
-    {
         "id":"li-4403349903",
         "site":"linkedin",
         "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4403349903",
@@ -216,21 +225,21 @@
         "job_type":null
     },
     {
+        "id":"li-4412671454",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4412671454",
+        "title":"Founder's Technical Assistant – Remote",
+        "company":"Colacy",
+        "location":"",
+        "job_type":null
+    },
+    {
         "id":"li-4403164761",
         "site":"linkedin",
         "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4403164761",
         "title":"Junior IT Technician",
         "company":"TELUS Digital",
         "location":"Ward 1, Quang Tri, Vietnam",
-        "job_type":null
-    },
-    {
-        "id":"li-4409679218",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4409679218",
-        "title":"IT HelpDesk",
-        "company":"SCC Vietnam",
-        "location":"",
         "job_type":null
     },
     {
@@ -270,15 +279,6 @@
         "job_type":null
     },
     {
-        "id":"li-4411430440",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4411430440",
-        "title":"IT Systems Engineer",
-        "company":"Hallmark Cards Asia",
-        "location":"Ho Chi Minh City, Vietnam",
-        "job_type":null
-    },
-    {
         "id":"li-4379188416",
         "site":"linkedin",
         "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4379188416",
@@ -288,48 +288,48 @@
         "job_type":null
     },
     {
-        "id":"li-4409732661",
+        "id":"li-4413930674",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4409732661",
-        "title":"IT Helpdesk and support",
-        "company":"XP Power",
-        "location":"Binh Duong, Vietnam",
-        "job_type":null
-    },
-    {
-        "id":"li-4409784301",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4409784301",
-        "title":"IT Application Administrator",
-        "company":"Jabil",
-        "location":"Ho Chi Minh City, Vietnam",
-        "job_type":null
-    },
-    {
-        "id":"li-4408469471",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4408469471",
-        "title":"IT Support",
-        "company":"Multinational Company",
-        "location":"Ho Chi Minh City, Vietnam",
-        "job_type":null
-    },
-    {
-        "id":"li-4412923582",
-        "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4412923582",
-        "title":"Junior IT Helpdesk Technician",
-        "company":"FireGroup Technology",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413930674",
+        "title":"Junior IT System",
+        "company":"VTI",
         "location":"Ho Chi Minh City, Ho Chi Minh City, Vietnam",
         "job_type":null
     },
     {
-        "id":"li-4413420977",
+        "id":"li-4413972152",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413420977",
-        "title":"[HN] IT SUPPORT (OFFICE 365)",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413972152",
+        "title":"[HN] IT SUPPORT (M365)",
         "company":"CMC Technology & Solution (CMC TS)",
         "location":"Quận Cầu Giấy, Hanoi, Vietnam",
+        "job_type":null
+    },
+    {
+        "id":"li-4413972154",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413972154",
+        "title":"[HCM] IT HELPDESK",
+        "company":"CMC Technology & Solution (CMC TS)",
+        "location":"Xã Các Sơn, Thanh Hoa, Vietnam",
+        "job_type":null
+    },
+    {
+        "id":"li-4409679218",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4409679218",
+        "title":"IT HelpDesk",
+        "company":"SCC Vietnam",
+        "location":"",
+        "job_type":null
+    },
+    {
+        "id":"li-4413883813",
+        "site":"linkedin",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413883813",
+        "title":"IT Manager",
+        "company":"gbc engineers",
+        "location":"",
         "job_type":null
     },
     {
@@ -342,21 +342,21 @@
         "job_type":null
     },
     {
-        "id":"li-4413234544",
+        "id":"li-4410388096",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413234544",
-        "title":"Information Technology Executive",
-        "company":"BizLink Group",
-        "location":"Bac Ninh, Vietnam",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4410388096",
+        "title":"IT Support engineer",
+        "company":"GJR Technologies",
+        "location":"Hanoi, Hanoi, Vietnam",
         "job_type":null
     },
     {
-        "id":"li-4413542365",
+        "id":"li-4410356562",
         "site":"linkedin",
-        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4413542365",
-        "title":"Support Engineer Level 1",
-        "company":"NAKIVO",
-        "location":"Ho Chi Minh City, Vietnam",
+        "job_url":"https:\/\/www.linkedin.com\/jobs\/view\/4410356562",
+        "title":"IT Support",
+        "company":"Sun* Vietnam",
+        "location":"",
         "job_type":null
     }
 ]
