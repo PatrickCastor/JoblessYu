@@ -14,87 +14,158 @@ import (
 )
 
 func main() {
-	// 1. Load the .env file (now that you have godotenv installed)
-	err := godotenv.Load()
-	if err != nil {
+	// Load .env
+	if err := godotenv.Load(); err != nil {
 		log.Println("Note: .env file not found, using system env variables")
 	}
 
-	// Use your reset token here once you have it!
 	token := "Bot " + os.Getenv("DISCORD_BOT_TOKEN")
 	dbURL := os.Getenv("DATABASE_URL")
 
 	disbot, err := discordgo.New(token)
 	if err != nil {
-		fmt.Println("error creating Discord session,", err)
-		return
+		log.Fatal("Error creating Discord session:", err)
 	}
 
-	// 2. Add the Handler: This tells the bot what to do when a message arrives
+	disbot.Identify.Intents =
+		discordgo.IntentsGuildMessages |
+			discordgo.IntentsDirectMessages |
+			discordgo.IntentsGuilds |
+			discordgo.IntentsMessageContent
+
 	disbot.AddHandler(func(s *discordgo.Session, m *discordgo.MessageCreate) {
-		// Ignore messages from the bot itself
-		if m.Author.ID == s.State.User.ID {
+
+		// Ignore bot messages
+		if m.Author.Bot {
 			return
 		}
 
-		// Trigger command: !jobs
+		// Test embed command
+		if m.Content == "!testembed" {
+			embed := &discordgo.MessageEmbed{
+				Title:       "✅ Embed Test",
+				Description: "If you can see this, embeds are working correctly.",
+				Color:       0x57F287,
+			}
+
+			_, err := s.ChannelMessageSendEmbed(m.ChannelID, embed)
+			if err != nil {
+				log.Println("Embed Error:", err)
+			}
+			return
+		}
+
+		// Jobs command
 		if m.Content == "!jobs" {
-			s.ChannelMessageSend(m.ChannelID, "Checking Neon DB for IT Support roles in Vietnam... =w=")
+
+			s.ChannelMessageSend(
+				m.ChannelID,
+				"🔍 Checking Neon DB for latest jobs...",
+			)
 
 			ctx := context.Background()
+
 			conn, err := pgx.Connect(ctx, dbURL)
 			if err != nil {
-				s.ChannelMessageSend(m.ChannelID, "❌ Failed to connect to Neon DB.")
-				fmt.Println("DB Connect Error:", err)
+				s.ChannelMessageSend(
+					m.ChannelID,
+					"❌ Failed to connect to Neon DB.",
+				)
+				log.Println("DB Connect Error:", err)
 				return
 			}
 			defer conn.Close(ctx)
 
-			// Query the latest 10 jobs scraped by JobSpy
-			rows, _ := conn.Query(ctx, "SELECT title, company, location, job_url FROM jobs ORDER BY fetched_at DESC LIMIT 10")
+			rows, err := conn.Query(
+				ctx,
+				`SELECT title, company, location, job_url
+				 FROM jobs
+				 ORDER BY fetched_at DESC
+				 LIMIT 10`,
+			)
+			if err != nil {
+				s.ChannelMessageSend(
+					m.ChannelID,
+					"❌ Failed to query jobs.",
+				)
+				log.Println("Query Error:", err)
+				return
+			}
+			defer rows.Close()
 
 			embed := &discordgo.MessageEmbed{
-	Title: "🇻🇳 Latest IT Support Jobs",
-	Color: 0x5865F2,
-}
+				Title:       "🇻🇳 Latest Jobs",
+				Description: "Newest jobs found in the database.",
+				Color:       0x5865F2,
+				Footer: &discordgo.MessageEmbedFooter{
+					Text: "Powered by JobSpy + Neon",
+				},
+			}
 
-for rows.Next() {
-	var title, company, loc, url string
-	if err := rows.Scan(&title, &company, &loc, &url); err != nil {
-		continue
-	}
+			jobCount := 0
 
-	embed.Fields = append(embed.Fields, &discordgo.MessageEmbedField{
-		Name: title,
-		Value: fmt.Sprintf(
-			"🏢 %s\n📍 %s\n🔗 [Apply Here](%s)",
-			company, loc, url,
-		),
-		Inline: false,
-	})
-}
+			for rows.Next() {
+				var title, company, location, url string
 
-s.ChannelMessageSendEmbed(m.ChannelID, embed)
+				if err := rows.Scan(
+					&title,
+					&company,
+					&location,
+					&url,
+				); err != nil {
+					continue
+				}
+
+				embed.Fields = append(
+					embed.Fields,
+					&discordgo.MessageEmbedField{
+						Name: title,
+						Value: fmt.Sprintf(
+							"🏢 %s\n📍 %s\n🔗 %s",
+							company,
+							location,
+							url,
+						),
+						Inline: false,
+					},
+				)
+
+				jobCount++
+			}
+
+			if jobCount == 0 {
+				s.ChannelMessageSend(
+					m.ChannelID,
+					"⚠️ No jobs found in the database.",
+				)
+				return
+			}
+
+			_, err = s.ChannelMessageSendEmbed(
+				m.ChannelID,
+				embed,
+			)
+
+			if err != nil {
+				log.Println("Send Embed Error:", err)
+				s.ChannelMessageSend(
+					m.ChannelID,
+					"❌ Failed to send embed.",
+				)
 			}
 		}
 	})
-	//Permission set:
-	disbot.Identify.Intents = discordgo.IntentsGuilds | discordgo.IntentsGuildMessages | discordgo.IntentsDirectMessages
 
-	err = disbot.Open()
-	if err != nil {
-		fmt.Println("Error opening connection", err)
-		return
+	if err := disbot.Open(); err != nil {
+		log.Fatal("Error opening connection:", err)
 	}
 
-	fmt.Println("JoblessYu Vessel is now running. Press CTRL-C to exit.")
+	fmt.Println("JoblessYu Vessel is now running. Press CTRL+C to exit.")
 
 	stop := make(chan os.Signal, 1)
 	signal.Notify(stop, os.Interrupt, syscall.SIGTERM)
 	<-stop
 
-	fmt.Println("Shutting down")
+	fmt.Println("Shutting down...")
 	disbot.Close()
 }
-
-
