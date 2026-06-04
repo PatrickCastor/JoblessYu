@@ -53,16 +53,28 @@ func main() {
 			// Query the latest 10 jobs scraped by JobSpy
 			rows, _ := conn.Query(ctx, "SELECT title, company, location, job_url FROM jobs ORDER BY fetched_at DESC LIMIT 10")
 
-			for rows.Next() {
-				var title, company, loc, url string
-				err := rows.Scan(&title, &company, &loc, &url)
-				if err != nil {
-					continue
-				}
+			embed := &discordgo.MessageEmbed{
+	Title: "🇻🇳 Latest IT Support Jobs",
+	Color: 0x5865F2,
+}
 
-				// Post to Discord
-				msg := fmt.Sprintf("📌 **%s**\n🏢 %s | 📍 %s\n🔗 <%s>", title, company, loc, url)
-				s.ChannelMessageSend(m.ChannelID, msg)
+for rows.Next() {
+	var title, company, loc, url string
+	if err := rows.Scan(&title, &company, &loc, &url); err != nil {
+		continue
+	}
+
+	embed.Fields = append(embed.Fields, &discordgo.MessageEmbedField{
+		Name: title,
+		Value: fmt.Sprintf(
+			"🏢 %s\n📍 %s\n🔗 [Apply Here](%s)",
+			company, loc, url,
+		),
+		Inline: false,
+	})
+}
+
+s.ChannelMessageSendEmbed(m.ChannelID, embed)
 			}
 		}
 	})
@@ -84,3 +96,5 @@ func main() {
 	fmt.Println("Shutting down")
 	disbot.Close()
 }
+
+
