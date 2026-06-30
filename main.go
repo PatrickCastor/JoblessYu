@@ -184,8 +184,12 @@ func main() {
 				log.Println("Interaction Respond Error:", err)
 			}
 		case "jobs":
+			log.Println("Received jobs interaction")
 			err := s.InteractionRespond(i.Interaction, &discordgo.InteractionResponse{
-				Type: discordgo.InteractionResponseDeferredChannelMessageWithSource,
+				Type: discordgo.InteractionResponseChannelMessageWithSource,
+				Data: &discordgo.InteractionResponseData{
+					Content: "🔍 Fetching the latest jobs...",
+				},
 			})
 			if err != nil {
 				log.Println("Interaction Respond Error:", err)
@@ -202,11 +206,17 @@ func main() {
 						log.Println("Jobs Build Error:", err)
 					}
 
-					_, _ = s.FollowupMessageCreate(i.Interaction, true, &discordgo.WebhookParams{Content: msg})
+					_, err = s.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{Content: &msg})
+					if err != nil {
+						log.Println("InteractionResponseEdit Error:", err)
+					}
 					return
 				}
 
-				_, _ = s.FollowupMessageCreate(i.Interaction, true, &discordgo.WebhookParams{Embeds: []*discordgo.MessageEmbed{embed}})
+				_, err = s.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{Embeds: []*discordgo.MessageEmbed{embed}})
+				if err != nil {
+					log.Println("InteractionResponseEdit Error:", err)
+				}
 			}()
 		}
 	})
