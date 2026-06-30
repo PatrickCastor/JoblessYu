@@ -206,16 +206,16 @@ func main() {
 						log.Println("Jobs Build Error:", err)
 					}
 
-					_, err = s.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{Content: &msg})
+					_, err = s.FollowupMessageCreate(i.Interaction, true, &discordgo.WebhookParams{Content: msg})
 					if err != nil {
-						log.Println("InteractionResponseEdit Error:", err)
+						log.Println("FollowupMessageCreate Error:", err)
 					}
 					return
 				}
 
-				_, err = s.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{Embeds: []*discordgo.MessageEmbed{embed}})
+				_, err = s.FollowupMessageCreate(i.Interaction, true, &discordgo.WebhookParams{Embeds: []*discordgo.MessageEmbed{embed}})
 				if err != nil {
-					log.Println("InteractionResponseEdit Error:", err)
+					log.Println("FollowupMessageCreate Error:", err)
 				}
 			}()
 		}
