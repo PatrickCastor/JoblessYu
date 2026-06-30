@@ -4,14 +4,32 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"net/url"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/jackc/pgx/v5"
 	"github.com/joho/godotenv"
 )
+
+func buildCompanyLogoURL(jobURL string) string {
+	if jobURL == "" {
+		return ""
+	}
+
+	parsedURL, err := url.Parse(jobURL)
+	if err != nil || parsedURL.Host == "" {
+		return ""
+	}
+
+	host := strings.ToLower(parsedURL.Host)
+	host = strings.TrimPrefix(host, "www.")
+
+	return fmt.Sprintf("https://www.google.com/s2/favicons?domain=%s&sz=64", host)
+}
 
 func main() {
 	// Load .env
@@ -103,6 +121,7 @@ func main() {
 			}
 
 			jobCount := 0
+			var logoURL string
 
 			for rows.Next() {
 				var title, company, location, url string
@@ -130,7 +149,15 @@ func main() {
 					},
 				)
 
+				if logoURL == "" {
+					logoURL = buildCompanyLogoURL(url)
+				}
+
 				jobCount++
+			}
+
+			if logoURL != "" {
+				embed.Thumbnail = &discordgo.MessageEmbedThumbnail{URL: logoURL}
 			}
 
 			if jobCount == 0 {
